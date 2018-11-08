@@ -19,7 +19,7 @@ export class SpeechService {
     while (!speechSynthesis.getVoices().length) {
       await new Promise(resolve => setTimeout(resolve, 250));
     }
-    const voices = speechSynthesis.getVoices();
+    const voices = speechSynthesis.getVoices().filter(v => v.lang === 'en-US');
     console.log(voices);
     this.voice =
       voices.filter(v => v.name === this.preferredVoiceName)[0] || voices[0];

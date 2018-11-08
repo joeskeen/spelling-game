@@ -26,6 +26,87 @@
       "word": "chin",
       "sentence": "The man has hair on his ____.",
       "misspellings": ["shin", "cin", "chen"]
+    },
+    {
+      "word": "as",
+      "sentence": "My sister dressed up __ a bee for Halloween.",
+      "misspellings": ["es", "az", "sa"]
+    },
+    {
+      "word": "has",
+      "sentence": "She ___ a cold.",
+      "misspellings": ["haz", "hes", "hus"]
+    },
+    {
+      "word": "to",
+      "sentence": "We went __ the store.",
+      "misspellings": ["tu", "too", "tow"]
+    },
+    {
+      "word": "into",
+      "syllables": ["in", "to"],
+      "sentence": "The day turned ____ night.",
+      "misspellings": ["intu", "inntoo", "unto"]
+    },
+    {
+      "word": "dash",
+      "sentence": "The dog made a ____ for the door.",
+      "misspellings": ["dush", "dach", "bash"]
+    },
+    {
+      "word": "pick",
+      "sentence": "Chocolate ice cream is my first ____.",
+      "misspellings": ["peck", "pik", "pic"]
+    },
+    {
+      "word": "chat",
+      "sentence": "My friend and I like to ____.",
+      "misspellings": ["chet", "shat", "cat"]
+    },
+    {
+      "word": "thin",
+      "sentence": "The cat is very ____.",
+      "misspellings": ["then", "hin", "tin"]
+    },
+    {
+      "word": "ship",
+      "sentence": "The sailing ____ is very big.",
+      "misspellings": ["chip", "shep", "zhip"]
+    },
+    {
+      "word": "we",
+      "sentence": "How happy __ are to live here!",
+      "misspellings": ["wee", "wi", "whe"]
+    },
+    {
+      "word": "he",
+      "sentence": "__ is a boy.",
+      "misspellings": ["hee", "hie", "eh"]
+    },
+    {
+      "word": "she",
+      "sentence": "___ is a girl.",
+      "misspellings": ["esh", "shee", "shi"]
+    },
+    {
+      "word": "be",
+      "sentence": "I will __ honest.",
+      "misspellings": ["bee", "eb", "bi"]
+    },
+    {
+      "word": "me",
+      "sentence": "Please give __ a hug.",
+      "misspellings": ["mee", "mie", "em"]
+    },
+    {
+      "word": "for",
+      "sentence": "These flowers are ___ you.",
+      "misspellings": ["four", "fur", "fer"]
+    },
+    {
+      "word": "or",
+      "sentence": "You can have this __ that.",
+      "misspellings": ["ore", "ro", "our"]
     }
   ]
 }
