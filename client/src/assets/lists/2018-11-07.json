@@ -11,6 +11,21 @@
       "word": "shut",
       "sentence": "He ____ the door.",
       "misspellings": ["sut", "shet", "chut"]
+    },
+    {
+      "word": "whip",
+      "sentence": "She cracked the ____.",
+      "misspellings": ["wip", "whep", "whup"]
+    },
+    {
+      "word": "sick",
+      "sentence": "It is no fun to feel ____.",
+      "misspellings": ["sik", "sic", "seck"]
+    },
+    {
+      "word": "chin",
+      "sentence": "The man has hair on his ____.",
+      "misspellings": ["shin", "cin", "chen"]
     }
   ]
 }

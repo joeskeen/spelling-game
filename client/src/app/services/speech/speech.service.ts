@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { fromEvent } from 'rxjs';
 
 speechSynthesis.getVoices();
 
@@ -24,15 +25,21 @@ export class SpeechService {
       voices.filter(v => v.name === this.preferredVoiceName)[0] || voices[0];
   }
 
-  say(text: string) {
+  async say(text: string): Promise<void> {
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.voice = this.voice;
     utterance.rate = 0.65;
     speechSynthesis.speak(utterance);
+    while (speechSynthesis.speaking) {
+      await new Promise(resolve => setTimeout(resolve, 250));
+    }
   }
 
-  spell(word: string) {
-    word.split('').forEach(letter => this.say(letter));
+  async spell(word: string) {
+    const letters = word.split('');
+    for (const letter of letters) {
+      await this.say(letter);
+    }
   }
 
   shutUp() {

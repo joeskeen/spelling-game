@@ -1,5 +1,13 @@
 <div *ngIf="current">
-  <h1>{{ current.word }}</h1>
+  <h1>
+    <hc-icon
+      fontSet="fa"
+      fontIcon="fa-volume-up"
+      icon-lg
+      (click)="repeatWord()"
+    ></hc-icon>
+    <span>{{ current.word }}</span>
+  </h1>
   <span>{{ current.sentence }}</span>
   <hc-form-field>
     <label hcLabel>type the word</label>

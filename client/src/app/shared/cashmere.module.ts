@@ -2,10 +2,11 @@ import { NgModule } from '@angular/core';
 import {
   ButtonModule,
   InputModule,
-  FormFieldModule
+  FormFieldModule,
+  IconModule
 } from '@healthcatalyst/cashmere';
 
 @NgModule({
-  exports: [ButtonModule, InputModule, FormFieldModule]
+  exports: [ButtonModule, InputModule, FormFieldModule, IconModule]
 })
 export class CashmereModule {}
