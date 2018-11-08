@@ -1,0 +1,9 @@
+<div *ngIf="current">
+  <h1>{{ current.word }}</h1>
+  <span>{{ current.sentence }}</span>
+  <hc-form-field>
+    <label hcLabel>type the word</label>
+    <input hcInput [(ngModel)]="enteredWord" [placeholder]="current.word" />
+  </hc-form-field>
+  <button hc-button (click)="checkWord()" buttonStyle="primary">Done</button>
+</div>
